@@ -1,0 +1,113 @@
+SISTEMAS DE NUMERAÇÃO – BINÁRIO, DECIMAL E HEXADECIMAL
+
+O computador trabalha com o sistema BINÁRIO, que utiliza apenas dois números:
+0 e 1.
+
+Já nós usamos normalmente o sistema DECIMAL, que possui 10 números:
+0,1,2,3,4,5,6,7,8,9.
+
+Além desses, existe o sistema HEXADECIMAL, que possui 16 símbolos:
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+No hexadecimal:
+A = 10
+B = 11
+C = 12
+D = 13
+E = 14
+F = 15
+
+----------------------------------------------------
+
+BINÁRIO → DECIMAL
+
+No sistema binário, cada posição representa uma potência de 2.
+
+Exemplo:
+Binário: 1011
+
+Da direita para a esquerda:
+1×2⁰ = 1
+1×2¹ = 2
+0×2² = 0
+1×2³ = 8
+
+Somando:
+8 + 0 + 2 + 1 = 11
+
+Logo:
+1011 (binário) = 11 (decimal)
+
+Dinâmica simples:
+Imagine que cada número binário é um interruptor.
+Se estiver ligado (1), você soma o valor.
+Se estiver desligado (0), você ignora.
+
+----------------------------------------------------
+
+DECIMAL → BINÁRIO
+
+Dividimos o número por 2 até chegar em 0.
+
+Exemplo: Converter 13 para binário
+
+13 ÷ 2 = 6 resto 1
+6 ÷ 2 = 3 resto 0
+3 ÷ 2 = 1 resto 1
+1 ÷ 2 = 0 resto 1
+
+Agora lemos os restos de baixo para cima:
+
+13 (decimal) = 1101 (binário)
+
+----------------------------------------------------
+
+BINÁRIO → HEXADECIMAL
+
+Agrupamos os números binários de 4 em 4 (da direita para a esquerda).
+
+Exemplo:
+11010110
+
+Separando:
+1101 0110
+
+1101 = 13 = D
+0110 = 6
+
+Resultado:
+11010110 (binário) = D6 (hexadecimal)
+
+Dinâmica:
+Pense que cada grupo de 4 bits vira um único símbolo hexadecimal.
+
+----------------------------------------------------
+
+HEXADECIMAL → DECIMAL
+
+Cada posição é potência de 16.
+
+Exemplo:
+2F
+
+F = 15
+
+2×16¹ = 32
+15×16⁰ = 15
+
+32 + 15 = 47
+
+Logo:
+2F (hexadecimal) = 47 (decimal)
+
+----------------------------------------------------
+
+RESUMO
+
+Binário → base 2 → usa 0 e 1
+Decimal → base 10 → usa 0 a 9
+Hexadecimal → base 16 → usa 0 a 9 e A a F
+
+O computador usa binário.
+Programadores usam hexadecimal porque é mais compacto e fácil de ler.
+Nós usamos decimal no dia a dia.

@@ -1,0 +1,48 @@
+BITS E BYTES
+
+Bit significa Binary Digit (Dígito Binário).
+É a menor unidade de informação do computador.
+
+Um bit só pode ter dois valores: 0 ou 1.
+Podemos comparar com um interruptor:
+0 = desligado
+1 = ligado
+
+Byte é um conjunto de 8 bits.
+Exemplo de byte: 01001010
+Então:
+1 byte = 8 bits
+
+Todas as informações do computador (letras, números, fotos, vídeos e programas)
+são armazenadas em bytes.
+
+Medidas maiores:
+1 KB (quilobyte) = 1024 bytes
+1 MB (megabyte) = 1024 KB
+1 GB (gigabyte) = 1024 MB
+1 TB (terabyte) = 1024 GB
+
+Resumo:
+Bit = 0 ou 1
+Byte = 8 bits
+Tudo no computador é representado usando bits e bytes.
+
+___________________________________________________________________________________
+
+ATIVIDADE – BITS E BYTES
+
+1- O que é um bit?
+R: Bit é a menor unidade de informação do computador.
+
+2- Quantos bits formam um byte?
+R: Para formar um Byte são necessários 8 Bits.
+
+3- Se um arquivo tem 5 KB, quantos bytes ele possui?
+R: 1024x5= 5120 Bytes.
+
+4- Explique com suas palavras por que bits e bytes são importantes para o computador.
+R: Bits são necessários para representar os menores valores em um computador, já o conjunto de pelo menos 8 bits são considerados Bytes. Os bytes carregam todas as informações do computador, por exemplo: letras, simbolos, números, etc.
+
+5- Complete:
+a. 1 byte = 8 bits
+b. 1 MB = 1024 KB
